@@ -1,0 +1,7 @@
+const paragraphhhh = document.getElementById('myParagraphhhh');
+const texts = ['Текст 1', 'Текст 2', 'Текст 3'];
+
+paragraphhhh.addEventListener('click', () => {
+  const randomIndex = Math.floor(Math.random() * texts.length);
+  paragraphhhh.textContent = texts[randomIndex];
+});

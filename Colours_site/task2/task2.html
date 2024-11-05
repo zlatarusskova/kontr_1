@@ -1,0 +1,46 @@
+<li><a href="../history/index.html">История</a></li>
+<li><a href="../colours/index.html">Цвета</a></li>
+<li><a href="../pasport/index.html">Паспорт</a></li>
+<li><a href="../task/index.html">Задача</a></li>
+<li><a href="../forma/index.html">Форма</a></li>
+<li><a href="../Itten/index.html">Круг Иттена</a></li>
+<li><a href="../task2/index.html"><b>Решение</b></a></li>
+<li><a href="../changes/index.html">Изменяем кириллицу на латиницу по клику</a></li>
+
+<h4 align="left">Задача:</h4>
+<h4 align="left"> Известна денежная сумма. Разменять её купюрами 500, 100, 10 и монетой 2 руб., если это возможно.
+</h4>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Размен денег</title>
+    <style>
+        .result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <input type="number" id="amount" placeholder="Введите сумму">
+        <button type='button' onclick="calculateChange()">Рассчитать размен</button>
+        <div id="result"></div>
+        <script src="script.js">
+            document.getElementById ("resultInput").value = result;
+        </script>
+        <p>Для поисковика:<input type="Text" name="q" value="search"></p>
+        <p>Условие: <input type="Text" size=100 value="Известна денежная сумма. Разменять её купюрами 500, 100, 10 и монетой 2 руб., если это возможно."></p>
+        <p>
+            <p>Результат: <input name="result" size=100 ></p>
+            <input type="Reset" name="Reset" value="Обновить">
+            <input type="Submit" name="submit" value="Отправить">
+        </p>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<li><a href="../history/index.html">История</a></li>
+<li><a href="../colours/index.html">Цвета</a></li>
+<li><a href="../pasport/index.html"><b>Паспорт</b></a></li>
+<li><a href="../task/index.html">Задача</a></li>
+<li><a href="../forma/index.html">Форма</a></li>
+<li><a href="../Itten/index.html">Круг Иттена</a></li>
+<li><a href="../task2/index.html">Решение</a></li>
+<li><a href="../changes/index.html">Изменяем кириллицу на латиницу по клику</a></li>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <title>HTML Document</title>
+</head>
+
+<body>
+   <h1 align="center">
+      <font color="orange" size="6" face="arial">Российская Федерация</font>
+   </h1>
+   <h3 align="center">Удостоверение личности гражданина</h3>
+   <hr color="blue" width="100%" size="2">
+   <img width="200" height="200" src="./image_pas/pas_image.webp">
+   <p>Фамилия<br><span>abc</span></p>
+
+   <p>ФИО</p>
+   <p>Русскова</p>
+   <p>Злата</p>
+   <p>Вячеславовна</p>
+   <p>Дата рождения:</p>
+   <p>13.04.2005</p>
+   <p>Место рождения:</p>
+   <p>Санкт-Петурбург</p>
+   <p>Дата выдачи</p>
+   <p>12.03.2013</p>
+   <p>Номер удостоверения:</p>
+   <p>02 41 456789</p>
+   <p></p>
+
+   </p>
+</body>
+<script>
+   let second_name = document.getElementsByTagName("span")[0].innerText
+   console.log("старая фамилия: ", second_name);
+   let second_name_node = document.getElementsByTagName("span")[0]
+   let new_second_name = "Русскова"
+   console.log("новая фамилия: ", new_second_name)
+   second_name_node.innerText = new_second_name
+</script>
+
+</html>
